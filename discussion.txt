@@ -1,0 +1,36 @@
+Part 1:
+
+--- Runtime ---
+Q1:
+The method I use to determine is there is an elephant in my box of crackers affects the workload. 
+Example: Taking out 1 cracker, looking it at and discard VS Taking out a cracker, looking at it, put it back in the box, shake, try again. Of course, in real life, method 2 will result in a box of crumbs.
+Q2: 
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+O(n!)
+
+--- Stacks and Queues ---
+Q1: Stack, Queue (assuming the caps don't pile up), Stack
+Q2: The line at Ariscault Bakery (top notch croissants). Stocking milk at a responsible grocery store, older ones at the front.
+Q3: The undo function. The fruits and vegetables section, people want to buy the freshest ones.
+
+--- Linked List ---
+Q1:
+Nodes: The boxes containing Apple, Berry, and Cherry
+Data: The actual text Apple, Berry, and Cherry
+Head: The reference pointing to the first node, Apple.
+Tail: The reference pointing the last node, Cherry
+Q2: 
+Single linked list have a next reference, pointing to the node that comes after the current one.
+Doubly linked list have both next and previous reference, pointing to the node that comes after and before the current one.
+Q3: It is a simple matter of placing the last item anywhere in the memory and changing the reference of the tail.
+
+--- Trees ---
+Q1: Italian, Indian, Mexican, lasagna (I just watch Jasques Pepin making lasagna this morning), pizza, tikka masala, saag, burrito
+Q2: Italian, Indian, Mexican, burrito, tacos, enchiladas, tikka masala, saag, lasagna, pizza, thin crust, Chicago-style
+Q3: It eleminates by halves instead of going through everything before the item you are looking for. This method has a O(log n).
+
